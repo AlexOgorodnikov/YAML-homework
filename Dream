@@ -1,0 +1,72 @@
+--- 
+#переменные вида 'x+','y+' заменяют неизвестные из условия числа
+organization: Dream #название организации
+departments: #отделы
+  - first: #первый отдел, далее по аналогии
+      noe: x+9 #общее количество сотрудников
+      sallary: high #зарплата
+      professions: #профессии
+        - accountant: 4 #бухгалтер : количество
+        - unknown: #неизвестные профессии
+      avrage: unknown #средний возраст
+      gender: #пол
+        - male: 5
+        - female: 4
+      names: #имена и количество
+        - olya: 4
+        - dima: 3
+        - ivan: 2
+  - second:
+      noe: 6 #общее количество сотрудников
+      sallary: high #зарплата
+      professions: #профессии
+        - lawyer: 4 #бухгалтер : количество
+        - driver: 2 #неизвестные профессии
+      avrage: 30-x #средний возраст
+      gender: #пол
+        - male: 6
+      names: #имена и количество
+        - roman: 4
+        - maxim: 2
+  - third:
+  noe: x+9 #общее количество сотрудников
+      sallary: high #зарплата
+      professions: #профессии
+        - lawyer: 1 #юрист
+        - unknown: #неизвестные профессии
+      avrage: unknown #средний возраст
+      gender: #пол
+        - male: 5
+        - female: 4
+      names: #имена и количество
+        - olya: 4
+        - dima: 3
+        - ivan: 2
+  - forth&fifth:
+  noe: x+9 #общее количество сотрудников
+      sallary: high #зарплата
+      professions: #профессии
+        - accountant: 4 #бухгалтер : количество
+        - unknown: #неизвестные профессии
+      avrage: unknown #средний возраст
+      gender: #пол
+        - male: 5
+        - female: 4
+      names: #имена и количество
+        - olya: 4
+        - dima: 3
+        - ivan: 2
+  - sixth:
+  noe: x+9 #общее количество сотрудников
+      sallary: high #зарплата
+      professions: #профессии
+        - accountant: 4 #бухгалтер : количество
+        - unknown: #неизвестные профессии
+      avrage: unknown #средний возраст
+      gender: #пол
+        - male: 5
+        - female: 4
+      names: #имена и количество
+        - olya: 4
+        - dima: 3
+        - ivan: 2
