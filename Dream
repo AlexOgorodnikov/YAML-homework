@@ -20,8 +20,8 @@ departments: #отделы
       noe: 6 #общее количество сотрудников
       sallary: high #зарплата
       professions: #профессии
-        - lawyer: 4 #бухгалтер : количество
-        - driver: 2 #неизвестные профессии
+        - lawyer: 4 #юрист : количество
+        - driver: 2 #водитель
       avrage: 30-x #средний возраст
       gender: #пол
         - male: 6
@@ -29,44 +29,38 @@ departments: #отделы
         - roman: 4
         - maxim: 2
   - third:
-  noe: x+9 #общее количество сотрудников
-      sallary: high #зарплата
+      noe: x+2 #общее количество сотрудников
+      sallary: low #зарплата
       professions: #профессии
-        - lawyer: 1 #юрист
-        - unknown: #неизвестные профессии
+        - builder: 2 #строитель
+        - unknown: unknown #неизвестные профессии
       avrage: unknown #средний возраст
       gender: #пол
-        - male: 5
-        - female: 4
+        - male: 2
+        - female: unknown
       names: #имена и количество
-        - olya: 4
-        - dima: 3
-        - ivan: 2
+        - ivan: 1
+        - nikolai: 1
   - forth&fifth:
-  noe: x+9 #общее количество сотрудников
-      sallary: high #зарплата
+      noe: 5 #общее количество сотрудников
+      sallary: #зарплата
+        - forth: low
+        - fifth: medium
       professions: #профессии
-        - accountant: 4 #бухгалтер : количество
-        - unknown: #неизвестные профессии
-      avrage: unknown #средний возраст
+        - archivist: 5 #архивариус : количество
+        - unknown: unknown #неизвестные профессии
+      avrage: #средний возраст
+        - male: 65+x
+        - female: 30+x
       gender: #пол
-        - male: 5
-        - female: 4
+        - female: 5
+        - male: unknown
       names: #имена и количество
-        - olya: 4
-        - dima: 3
-        - ivan: 2
+        - yulya: 5
   - sixth:
-  noe: x+9 #общее количество сотрудников
-      sallary: high #зарплата
-      professions: #профессии
-        - accountant: 4 #бухгалтер : количество
-        - unknown: #неизвестные профессии
-      avrage: unknown #средний возраст
-      gender: #пол
-        - male: 5
-        - female: 4
-      names: #имена и количество
-        - olya: 4
-        - dima: 3
-        - ivan: 2
+      noe: 1 #общее количество сотрудников
+      sallary: low #зарплата
+      professions: securitydirector #профессии
+      avrage: 50+x #средний возраст
+      gender: male #пол
+      names: igorviktorovich #имена и количество
